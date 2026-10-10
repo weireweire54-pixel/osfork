@@ -1,3 +1,4 @@
 /build/
 /qemu-install.exe
 /InstallationLog.txt
+/assets/*.ppm

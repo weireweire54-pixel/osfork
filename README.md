@@ -4,6 +4,8 @@ An experimental 32-bit x86 bare-metal kernel for learning systems programming. o
 
 This is an early educational project, not a general-purpose operating system. Hardware support, process isolation, networking, and a standard on-disk filesystem are not implemented.
 
+![Tic-tac-toe running in osfork inside QEMU](assets/osfork-game.png)
+
 ## Current features
 
 - Multiboot-compatible 32-bit x86 kernel entry
@@ -51,3 +53,7 @@ Build only, without starting QEMU:
 ## Release status
 
 osfork is intended for QEMU experimentation. It has not been validated as a bootable installation for physical computers. See [CHANGELOG.md](CHANGELOG.md) for the current preview notes.
+
+## Contributing and license
+
+Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow and starter tasks. osfork is released under the [MIT License](LICENSE), which permits commercial use and redistribution subject to its terms.
